@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+[x: string]: any;
   title = 'lifecycle';
+
+
+
+  mostrar : boolean = true;
+
+
+  onClick(){
+    this.mostrar = !this.mostrar;
+  }
+
 }
